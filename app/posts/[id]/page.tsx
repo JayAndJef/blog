@@ -23,7 +23,7 @@ export default async function Page({ params }: { params: { id: string } }) {
 
         <div className="mx-12 md:mx-16 py-12">
           <div
-            className="prose"
+            className="prose dark:prose-invert"
             dangerouslySetInnerHTML={{ __html: data.content! }}
           ></div>
         </div>
